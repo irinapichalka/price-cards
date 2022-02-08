@@ -9,19 +9,19 @@ html {
 body {
   background-color: #141b1c;
   height: 100vh;
-}
-
-.tables {
-  margin: 115px 132px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/*.tables {
+  margin: auto;
+}*/
 .price-card {
   background: #334247;
   box-shadow: 0px 6px 6px black;
-  max-width: 380px;
+  width: 380px;
+  height: 770px;
   margin-right: 18px;
 }
 .price-card:last-child {
