@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #141b1c;
+  height: 100vh;
+}
+.tables {
+  margin: 115px 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-card {
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0.087466);
+  max-width: 380px;
+  margin-right: 18px;
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__title {
+    color: #fff;
+    padding: 33px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-big {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+    }
+
+    &-small {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+  &__price {
+    padding: 19px 110px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+  }
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18.29px;
+    text-align: center;
+    margin: 40px 26px;
+    color: #fff;
+  }
+  &__option-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    &_item {
+      display: flex;
+      align-items: center;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      color: #fff;
+
+      &:nth-child(odd) {
+        background-color: #2a343826;
+      }
+      &:nth-child(even) {
+        background-color: #1f3d6300;
+      }
+      &-icon {
+        margin: 18px 22px 19px 22px;
+        display: inline-block;
+        width: 15px;
+        height: 13px;
+      }
+    }
+  }
+  &__order-btn {
+    width: 154.63px;
+    height: 40px;
+    padding: 11px 26.74px 12px 27.98px;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    text-transform: uppercase;
+    margin: 39px 113px 40px 112px;
+    border: none;
+  }
+  &-selected {
+    position: relative;
+  }
+}
+.basic-price-btn {
+  background-color: #5bb189;
+}
+.business-price-btn {
+  background-color: #3a6ba5;
+}
+.webshop-price-btn {
+  background-color: #ec632a;
+}
+
+.icon-green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+.icon-blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+.icon-orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+.popular-card {
+  position: absolute;
+  /*left: 0%;
+  right: 79.5%;
+  top: 14.71%;
+  bottom: -34.29%;*/
+  background-color: #dc3f45;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+}
