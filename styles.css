@@ -62,12 +62,12 @@ body {
   margin: 40px 26px;
   color: #fff;
 }
-.price-card__option-list {
+.price-card__options-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.price-card__option-list_item {
+.price-card__options-list_item {
   display: flex;
   align-items: center;
   font-weight: 300;
@@ -75,13 +75,13 @@ body {
   line-height: 18px;
   color: #fff;
 }
-.price-card__option-list_item:nth-child(odd) {
+.price-card__options-list_item:nth-child(odd) {
   background-color: #2a343826;
 }
-.price-card__option-list_item:nth-child(even) {
+.price-card__options-list_item:nth-child(even) {
   background-color: #1f3d6300;
 }
-.price-card__option-list_item-icon {
+.price-card__options-list_item-icon {
   margin: 18px 22px 19px 22px;
   display: inline-block;
   width: 15px;
