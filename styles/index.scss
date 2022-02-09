@@ -123,14 +123,15 @@ body {
 }
 .popular-card {
   position: absolute;
-  /*left: 0%;
+  left: 0%;
   right: 79.5%;
   top: 14.71%;
-  bottom: -34.29%;*/
+  bottom: -34.29%;
   background-color: #dc3f45;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
+  color: #fff;
 }
