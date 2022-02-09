@@ -23,7 +23,7 @@ body {
   background: #334247;
   box-shadow: 0px 6px 6px black;
   width: 380px;
-  /*height: 770px;*/
+  height: 770px;
   margin-right: 18px;
 }
 .price-card:last-child {
